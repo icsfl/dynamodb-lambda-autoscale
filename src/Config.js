@@ -155,7 +155,7 @@ export default {
   connection: {
     dynamoDB: {
       apiVersion: '2012-08-10',
-      region: 'us-east-1',
+      region: 'us-west-1',
       dynamoDbCrc32: false,
       httpOptions: {
         timeout: 5000
@@ -163,7 +163,7 @@ export default {
     },
     cloudWatch: {
       apiVersion: '2010-08-01',
-      region: 'us-east-1',
+      region: 'us-west-1',
       httpOptions: {
         timeout: 5000
       }
